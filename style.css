@@ -1,6 +1,30 @@
+/* Page Reset */
+
 * {
     box-sizing: border-box;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html, 
+body, 
+div {
     margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-weight: 400;
 }
 
 img {
@@ -13,4 +37,8 @@ img {
 main {
     width: 70%;
     margin: 10px auto 0;
+}
+
+ul li::marker {
+
 }
