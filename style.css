@@ -18,7 +18,7 @@ main {
     background-color: rgba(245, 245, 245, 90%);
     width: 70%;
     margin: 10px auto 10px;
-    padding: 1em;
+    padding: 2rem 1rem;
     border-radius: 20px;
 }
 
@@ -46,15 +46,38 @@ img {
     max-width: 100%;
     display: block;
     height: auto;
-    margin: auto;
+    margin: 0 auto 1em; 
     border-radius: 20px;
     box-shadow: 5px 0px 3px;
 }
 
 figcaption {
     text-align: center;
+    margin-bottom: 1em;
 }
 
-ul li::marker {
+/* Rest of page */
 
+hr {
+    margin-bottom: 1.5rem;
 }
+
+#tribute-info h2 {
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+blockquote > p {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
